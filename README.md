@@ -1,6 +1,8 @@
 # Other Stuff
 [Learn.js Docs in Notion](https://www.notion.so/Docs-1fd3f36228cf80848813d7d8d15d8ab6)
 
+Learn.js Version 2 is currently being developed. There will be little to no changes for the front-end, but there will huge revisions in the back-end and new content over-all! (summer project :D)
+
 # Get Started with Learn.js
 ## About Learn.js
 Learn.js is an interactive learning platform designed to help beginners master JavaScript programming. It provides structured lessons, interactive quizzes, and a coding playground to practice JavaScript concepts in real-time.
