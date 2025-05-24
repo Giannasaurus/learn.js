@@ -80,7 +80,7 @@ It is currently being maintained by Gianna.
 
 Special thanks:
 
-- GitHub Copilot
+- Copilot
 - Claude
 - ChatGPT
 
