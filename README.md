@@ -1,3 +1,6 @@
+# Other Stuff
+[Learn.js Docs], Notion (https://www.notion.so/Docs-1fd3f36228cf80848813d7d8d15d8ab6)
+
 # Get Started with Learn.js
 ## About Learn.js
 Learn.js is an interactive learning platform designed to help beginners master JavaScript programming. It provides structured lessons, interactive quizzes, and a coding playground to practice JavaScript concepts in real-time.
