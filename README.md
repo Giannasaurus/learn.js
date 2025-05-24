@@ -1,5 +1,5 @@
 # Other Stuff
-[Learn.js Docs], Notion (https://www.notion.so/Docs-1fd3f36228cf80848813d7d8d15d8ab6)
+[Learn.js Docs, Notion] (https://www.notion.so/Docs-1fd3f36228cf80848813d7d8d15d8ab6)
 
 # Get Started with Learn.js
 ## About Learn.js
