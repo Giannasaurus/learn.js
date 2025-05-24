@@ -22,7 +22,7 @@ Learn.js is an interactive learning platform designed to help beginners master J
 6. Practice coding in the playground
 
 ## Main Interface
-**Header:** Navigation menu for Learn, Quizzes, and Playground sections
+**Header:** Navigation menu for Learn, Quizzes, and Playground sections  
 **Footer:** Title and Credits
 
 # Main Features
