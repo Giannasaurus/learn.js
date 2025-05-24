@@ -50,18 +50,23 @@ Learn.js is an interactive learning platform designed to help beginners master J
 
 # FAQs
 **Q:** How do I start learning JavaScript?
+
 **A:** Begin with the Basics module, which covers fundamental concepts in a structured manner.
 
 **Q:** Can I practice coding within Learn.js?
+
 **A:** Yes, use the Playground section to write and execute JavaScript code in real-time.
 
 **Q:** How do the quizzes work?
+
 **A:** Choose between Classic mode (fixed questions) or Survival mode (timed). Select your preferred module and answer questions to test your knowledge.
 
 **Q:** Is my progress saved?
+
 **A:** Currently, progress is session-based and resets upon closing the browser.
 
 **Q:** Can I use Learn.js offline?
+
 **A:** Learn.js requires an internet connection for full functionality.
 
 # Thank You!
