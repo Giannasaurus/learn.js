@@ -23,7 +23,6 @@ Learn.js is an interactive learning platform designed to help beginners master J
 
 ## Main Interface
 **Header:** Navigation menu for Learn, Quizzes, and Playground sections  
-
 **Footer:** Title and Credits
 
 # Main Features
