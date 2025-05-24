@@ -1,5 +1,4 @@
 # Get Started with Learn.js
----
 ## About Learn.js
 Learn.js is an interactive learning platform designed to help beginners master JavaScript programming. It provides structured lessons, interactive quizzes, and a coding playground to practice JavaScript concepts in real-time.
 
@@ -22,7 +21,6 @@ Learn.js is an interactive learning platform designed to help beginners master J
 **Footer:** Title and Credits
 
 # Main Features
----
 ## Learning Modules
 ### Basics Module
 - Overview of JavaScript
@@ -41,7 +39,6 @@ Learn.js is an interactive learning platform designed to help beginners master J
 - Real-time output
 - 
 # Other Useful Functions
----
 ## Code Examples
 - Copyable code snippets
 - Syntax highlighting
@@ -52,7 +49,6 @@ Learn.js is an interactive learning platform designed to help beginners master J
 - Quiz: Breadcrumb navigation
 
 # FAQs
----
 **Q:** How do I start learning JavaScript?
 **A:** Begin with the Basics module, which covers fundamental concepts in a structured manner.
 
@@ -69,7 +65,6 @@ Learn.js is an interactive learning platform designed to help beginners master J
 **A:** Learn.js requires an internet connection for full functionality.
 
 # Thank You!
----
 Learn.js is developed by:
 
 - Gianna Cantor
