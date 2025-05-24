@@ -75,8 +75,6 @@ It is currently being maintained by Gianna.
 
 We appreciate your interest in Learn.js and hope it helps you master JavaScript programming. For support or feedback, please contact our team.
 
-gianna.darlene.cantor@adamson.edu.ph
-ysabelle.anievas@adamson.edu.ph
-ivanne.cedrick.alegre@adamson.edu.ph
+**no contact pls**
 
 © 2024 Learn.js. All rights reserved.
