@@ -1,0 +1,16 @@
+{
+    "basics": [
+        {
+            "title": "Overview",
+            "file": "basics/basics-overview.json"
+        },
+        {
+            "title": "Syntax",
+            "file": "basics/basics-syntax.json"
+        },
+        {
+            "title": "Placement",
+            "file": "basics/basics-placement.json"
+        }
+    ]
+}

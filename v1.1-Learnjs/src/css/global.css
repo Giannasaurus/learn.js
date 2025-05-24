@@ -1,0 +1,227 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+/* Root Variables */
+:root {
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-fira-code: 'Fira Code', monospace;
+    --font-jetbrains-mono: 'JetBrains Mono', monospace;
+
+    --color-primary: #f6de1f;
+    --color-secondary: #fffdf5;
+    --color-codeblock: #f4f4f4;
+}
+
+/* Text Selection Styles */
+h2::selection, h3::selection, h4::selection, 
+p::selection, li::selection, span::selection, 
+code::selection, blockquote::selection {
+    background-color: #000;
+    color: var(--color-secondary);
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 20px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border: 2px solid #000;
+    border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-secondary);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* Header Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-dropdown {
+        display: block;
+    }
+
+    header {
+        gap: 16px;
+    }
+
+    .logo {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .nav-dropdown select {
+        width: 140px;
+    }
+}
+
+/* Main Content Responsive Styles */
+@media (max-width: 768px) {
+    .span-container {
+        padding: 100px 32px !important;
+        max-width: 700px;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .span-1 {
+        font-size: 4rem !important;
+    }
+    
+    .span-2 {
+        font-size: 6rem !important;
+    }
+
+    .lesson-menu.active {
+        left: 0;
+    }
+
+    main, 
+    .lesson-container,
+    .quiz-container,
+    .playground-container {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .lesson-flex {
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 15px;
+        width: calc(100vw - 70px); /* Increased to account for scrollbar and margins */
+        gap: 1rem;
+    }
+
+    .lesson-menu {
+        width: auto !important; /* Changed from 100% to auto */
+        min-width: unset !important;
+        margin: 0 !important; /* Removed right margin */
+        height: auto !important;
+        padding: 1rem;
+    }
+
+    .lesson-container {
+        width: 100% !important; /* Changed from calc width */
+        margin: 0 !important; /* Removed margins */
+        padding: 1rem;
+    }
+
+    .lesson-content {
+        width: 100% !important;
+        padding: 15px;
+    }
+
+    .lesson-menu-list {
+        width: 100%;
+        padding: 10px;
+        white-space: nowrap;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        display: none !important;
+    }
+
+    .nav-dropdown {
+        display: block;
+        margin-left: 0;
+    }
+
+    .nav-dropdown select {
+        width: 120px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    main, 
+    .lesson-container,
+    .quiz-container,
+    .playground-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .lesson-flex {
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 15px;
+        width: calc(100vw - 30px);
+        gap: 1rem;
+    }
+
+    .lesson-menu {
+        width: 100% !important;
+        min-width: unset !important;
+        margin: 0 2rem 0 0 !important;
+        height: auto !important;
+    }
+
+    .lesson-container {
+        margin: auto 0;
+    }
+
+    .lesson-content {
+        width: 100% !important;
+        padding: 15px;
+    }
+
+    .lesson-menu-list {
+        width: auto;
+        padding: 10px;
+        white-space: nowrap;
+    }
+
+    .footer-grid {
+        padding: 1rem;
+    }
+}

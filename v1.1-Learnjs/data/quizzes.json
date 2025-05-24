@@ -1,0 +1,256 @@
+{
+    "syntax": [
+        {
+            "id": 1,
+            "text": "What is the result of typeof null in JavaScript?",
+            "options": ["object", "null", "undefined", "number"],
+            "correct": 0
+        },
+        {
+            "id": 2,
+            "text": "Which case style is commonly used for JavaScript variables?",
+            "options": ["camelCase", "snake_case", "kebab-case", "PascalCase"],
+            "correct": 0
+        },
+        {
+            "id": 3,
+            "text": "In JavaScript, which operator performs strict equality comparison?",
+            "options": ["==", "===", "=", "!="],
+            "correct": 1
+        },
+        {
+            "id": 4,
+            "text": "What is the correct way to write a single-line comment in JavaScript?",
+            "options": ["// Comment", "/* Comment */", "# Comment", "<!-- Comment -->"],
+            "correct": 0
+        },
+        {
+            "id": 5,
+            "text": "Which statement is NOT true about JavaScript semicolons?",
+            "options": [
+                "They are mandatory after every statement",
+                "JavaScript has Automatic Semicolon Insertion",
+                "They mark the end of a statement",
+                "They can be omitted in some cases"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 6,
+            "text": "What data type is NaN in JavaScript?",
+            "options": ["Number", "String", "Boolean", "Undefined"],
+            "correct": 0
+        },
+        {
+            "id": 7,
+            "text": "Which is an invalid JavaScript identifier?",
+            "options": ["123name", "_value", "$total", "firstName"],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "text": "Which of these is NOT a JavaScript primitive type?",
+            "options": ["Object", "Number", "String", "Symbol"],
+            "correct": 0
+        },
+        {
+            "id": 9,
+            "text": "What's the difference between let and const?",
+            "options": [
+                "let can be reassigned, const cannot",
+                "let is block-scoped, const is function-scoped",
+                "let can be used without initialization, const cannot",
+                "Both A and C"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 10,
+            "text": "What will console.log(true && 'Hello') display?",
+            "options": ["'Hello'", "true", "false", "undefined"],
+            "correct": 0
+        },
+        {
+            "id": 11,
+            "text": "How do you access the third element in an array named 'colors'?",
+            "options": ["colors[2]", "colors[3]", "colors.3", "colors(2)"],
+            "correct": 0
+        },
+        {
+            "id": 12,
+            "text": "Which operator is used for the remainder after division?",
+            "options": ["%", "/", "//", "rem"],
+            "correct": 0
+        },
+        {
+            "id": 13,
+            "text": "What will console.log(10 > 5 > 1) return?",
+            "options": ["false", "true", "Error", "undefined"],
+            "correct": 0
+        },
+        {
+            "id": 14,
+            "text": "What will be the output of console.log(typeof typeof 42)?",
+            "options": ["string", "number", "undefined", "object"],
+            "correct": 0
+        },
+        {
+            "id": 15,
+            "text": "Which is the correct way to create a function in JavaScript?",
+            "options": [
+                "function myFunc() {}",
+                "let myFunc = function() {}",
+                "const myFunc = () => {}",
+                "All of the above"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 16,
+            "text": "What does the nullish coalescing operator (??) do?",
+            "options": [
+                "Returns right side if left is null/undefined",
+                "Returns left side if it's truthy",
+                "Checks if both sides are null",
+                "Returns undefined if either side is null"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 17,
+            "text": "Which loop will always execute at least once?",
+            "options": ["do...while", "while", "for", "for...of"],
+            "correct": 0
+        },
+        {
+            "id": 18,
+            "text": "What's the output of console.log('5' + 3)?",
+            "options": ["'53'", "8", "53", "undefined"],
+            "correct": 0
+        },
+        {
+            "id": 19,
+            "text": "What does the ... operator do in [...arr1, 4, 5]?",
+            "options": [
+                "Spreads arr1's elements into the new array",
+                "Creates a deep copy of arr1",
+                "Concatenates arr1 with [4, 5]",
+                "Merges arrays"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 20,
+            "text": "What will const [a, , b] = [1, 2, 3] assign to b?",
+            "options": ["3", "2", "undefined", "[2, 3]"],
+            "correct": 0
+        },
+        {
+            "id": 21,
+            "text": "What's the purpose of the break statement in a switch case?",
+            "options": [
+                "Prevents fall-through to the next case",
+                "Exits the entire switch statement",
+                "Jumps to the default case",
+                "Both A and B"
+            ],
+            "correct": 3
+        },
+        {
+            "id": 22,
+            "text": "Which of these is NOT a valid way to declare a variable in modern JavaScript?",
+            "options": [
+                "def name = 'John'",
+                "let name = 'John'",
+                "const name = 'John'",
+                "var name = 'John'"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 23,
+            "text": "What's special about arrow functions regarding the 'this' keyword?",
+            "options": [
+                "They inherit 'this' from surrounding scope",
+                "They have their own 'this' binding",
+                "They don't have access to 'this'",
+                "They must use 'this.bind()' explicitly"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 24,
+            "text": "What's wrong with this code? const obj = { x: 1, y: 2, x: 3 };",
+            "options": [
+                "Nothing, x will be 3",
+                "Syntax error: duplicate key",
+                "TypeError: cannot reassign const",
+                "ReferenceError"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 25,
+            "text": "How do you create a multiline string in modern JavaScript?",
+            "options": [
+                "Using backticks (`...`)",
+                "Using '\\n' in a string",
+                "Using the String.multiline() method",
+                "Using the concat() method"
+            ],
+            "correct": 0
+        }
+    ],
+    "placement": [
+        {
+            "id": 1,
+            "text": "Which statement correctly uses template literals?",
+            "options": [
+                "`Hello, ${name}!`",
+                "'Hello, ${name}!'",
+                "\"Hello, ${name}!\"",
+                "`Hello, {name}!`"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 2,
+            "text": "What happens if you try to use an undeclared variable in JavaScript?",
+            "options": [
+                "ReferenceError is thrown",
+                "The variable gets assigned undefined",
+                "Nothing happens",
+                "TypeError is thrown"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 3,
+            "text": "Which method is used with Promises to handle errors?",
+            "options": [".catch()", ".error()", ".reject()", ".failure()"],
+            "correct": 0
+        },
+        {
+            "id": 4,
+            "text": "What does the async keyword do when placed before a function?",
+            "options": [
+                "Makes the function return a Promise",
+                "Makes the function run in a separate thread",
+                "Makes the function execute immediately",
+                "Makes the function wait for all Promises to resolve"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 5,
+            "text": "What's the correct syntax for object destructuring?",
+            "options": [
+                "const { name, age } = person;",
+                "const [ name, age ] = person;",
+                "const { person.name, person.age };",
+                "const = { name, age } from person;"
+            ],
+            "correct": 0
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+[
+    {
+    "title": "Basics",
+    "subtopics": [
+      {
+        "title": "Switch Case",
+        "sections": [
+          {
+            "type": "text",
+            "content": [
+              "Use the ",
+              { "type": "highlight", "text": "switch" },
+              " keyword to test many conditions."
+            ]
+          },
+          {
+            "type": "tooltip",
+            "word": "break",
+            "tip": "Stops execution of more cases"
+          },
+          {
+            "type": "code",
+            "language": "js",
+            "content": "switch(x) {\n  case 1: break;\n}"
+          },
+          {
+            "type": "bookmark",
+            "id": "switch-101"
+          }
+        ]
+      }
+    ]
+  }
+]
