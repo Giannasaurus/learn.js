@@ -78,6 +78,12 @@ Learn.js is developed by:
 
 It is currently being maintained by Gianna.
 
+Special thanks:
+
+- GitHub Copilot
+- Claude
+- ChatGPT
+
 We appreciate your interest in Learn.js and hope it helps you master JavaScript programming. For support or feedback, please contact our team.
 
 **no contact pls**
