@@ -37,7 +37,7 @@ Learn.js is an interactive learning platform designed to help beginners master J
 ## Coding Playground
 - Live code execution
 - Real-time output
-- 
+
 # Other Useful Functions
 ## Code Examples
 - Copyable code snippets
