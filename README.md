@@ -1,7 +1,8 @@
 # Other Stuff
 [Learn.js Docs in Notion](https://www.notion.so/Docs-1fd3f36228cf80848813d7d8d15d8ab6)
 
-Learn.js Version 2 is currently being developed. There will be little to no changes for the front-end, but there will huge revisions in the back-end and new content over-all! (summer project :D)
+> [!IMPORTANT]
+> Learn.js Version 2 is currently being developed. There will be little to no changes for the front-end, but there will huge revisions in the back-end and new content over-all! (summer project :D)
 
 # Get Started with Learn.js
 ## About Learn.js
